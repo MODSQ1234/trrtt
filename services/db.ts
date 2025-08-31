@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import type { Trade } from './types';
+import type { Trade } from '../types';
 // Fix: Correctly import Dexie and the `Table` type to resolve typing issues with subclassing.
 import Dexie, { type Table } from 'dexie';
 
